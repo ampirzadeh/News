@@ -1,9 +1,9 @@
-# whatsup
-
+# New app
 ## Project setup
 ```
 yarn install
 ```
+Also rename .env.example to .env.local and set VUE_APP_NEWS_API_KEY to your newsapi.org api key
 
 ### Compiles and hot-reloads for development
 ```
