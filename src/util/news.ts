@@ -117,6 +117,10 @@ export default class NewsApi {
         apiKey,
         language: "en",
       },
+      headers: {
+        origin: "http://localhost:8080",
+        referer: "http://localhost:8080/",
+      },
     });
   }
   async everything(params: FetchEverythingParams) {
