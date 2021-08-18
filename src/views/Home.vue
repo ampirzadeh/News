@@ -4,7 +4,7 @@
       class="flex flex-row flex-wrap items-center justify-around min-h-screen gap-2"
     >
       <template v-if="!response.articles.length">
-        <h1 class="text-blue-700">
+        <h1 class="mb-40 text-blue-700">
           Loading...
         </h1>
       </template>
@@ -33,7 +33,7 @@ export default defineComponent({
   name: "Home",
   setup(_) {
     const api = new NewsApi(process.env.VUE_APP_NEWS_API_KEY);
-    const response = ref<Response>({
+    let response = ref<Response>({
       articles: [],
       totalResults: 0,
       status: "ok",

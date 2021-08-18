@@ -1,19 +1,3 @@
 # New app
-## Project setup
-```
-yarn install
-```
-Also rename .env.example to .env.local and set VUE_APP_NEWS_API_KEY to your newsapi.org api key
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**Please** change the api key in `.env` to your own key obtainded from [https://newsapi.org/](https://newsapi.org/), I only put mine so that github pages is usable and you can see a demo
